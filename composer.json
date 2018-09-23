@@ -1,0 +1,19 @@
+{
+    "name": "karamel/file",
+    "description": "file package for view",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amir Kalantar",
+            "email": "amir.kalantar@gmail.com"
+        }
+    ],
+    "autolaod":{
+        "psr-4":{
+            "Karamel\\File":"/src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
