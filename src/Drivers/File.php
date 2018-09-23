@@ -52,7 +52,6 @@ class File implements IFile{
         $file  = file_get_contents($this->path ) ;
         return $file;
 
-
     }
 }
 
