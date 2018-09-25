@@ -9,7 +9,7 @@
             "email": "amir.kalantar@gmail.com"
         }
     ],
-    "autolaod":{
+    "autoload":{
         "psr-4":{
             "Karamel\\File\\":"/src"
         }
