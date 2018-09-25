@@ -30,9 +30,6 @@ class File implements IFile{
     {
         $this->validateData() ;
 
-        if (!file_exists($this->path))
-            throw new InvalidFilePathException() ;
-
         $file = fopen($this->path , $this->mod) ;
         fwrite($file , $this->data) ;
         fclose($file) ;
