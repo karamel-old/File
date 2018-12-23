@@ -1,3 +1,6 @@
 <?php
-namespace Karamel\File\Exceptions ;
-class InvalidTypeDriverException extends  \Exception{}
+
+namespace Karamel\File\Exceptions;
+class InvalidTypeDriverException extends \Exception
+{
+}

@@ -1,3 +1,6 @@
 <?php
-namespace karamel\File\Exceptions ;
-class EmptyDataException extends \Exception{}
+
+namespace karamel\File\Exceptions;
+class EmptyDataException extends \Exception
+{
+}
